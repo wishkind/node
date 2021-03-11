@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import Main from 'views/Main.jsx';
+import * as serviceWorker from './serviceWorker';
+import NotistackWrapper from 'contexts/NotistackWrapper.js'
+import NetworkProvider from 'contexts/Network.js'
+
+function AllProvider() {
+    return (
+        <NotistackWrapper>
+            <NetworkProvider>
+                <Main />
+            </NetworkProvider>
+        </NotistackWrapper>
+    )
+}
+
+ReactDOM.render(<AllProvider />,document.getElementById('root'));

@@ -1,0 +1,160 @@
+.signInPage {
+  /* text-align: center; */
+}
+
+img.rounded-circle {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.territory {
+  text-align: center;
+  background: no-repeat;
+  background-size: cover;
+  background-image: url(/image/territories/campus.jpg);
+  height:300px;
+  margin-bottom:  70px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-color: rgb(196, 216, 229);
+  border-right-color: rgb(196, 216, 229);
+  border-bottom-color: rgb(196, 216, 229);
+  border-left-color: rgb(196, 216, 229);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.0470588) 0px 4px 4px;
+}
+
+.add-frame {
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  position: relative;
+  margin: 1rem -15px 0;
+  margin-bottom: 2em;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-color: rgb(196, 216, 229);
+  border-right-color: rgb(196, 216, 229);
+  border-bottom-color: rgb(196, 216, 229);
+  border-left-color: rgb(196, 216, 229);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.0470588) 0px 4px 4px;
+  background-color: white;
+}
+
+.ruler {
+  padding-top: 25px;
+}
+
+.certlist {
+  /* min-height: 600px; */
+}
+/*---------------------------ipfs----------------------*/
+
+.ipfs {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #F5F5F5
+}
+
+.ipfscentre {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto 0;
+}
+
+.ipfsleft {
+  width: 500px;
+  height: 300px;
+  margin-top: 100px;
+  float: left;
+  border-right-style: ridge;
+}
+
+.ipfsright {
+  width: 350px;
+  height: 300px;
+  margin-top: 100px;
+  float: right;
+}
+
+.ipfstitle {
+  line-height: 50px;
+  display: block;
+  float: left;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  font-weight: 600;
+  color: #94070A;
+}
+
+.ipfsexplain {
+  width: 400px;
+  line-height: 50px;
+  display: block;
+  float: left;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.ipfsright .number {
+  width: 350px;
+  height: 50px;
+  margin-top: 25px;
+  float: right;
+}
+
+.ipfsright .ok {
+  width: 350px;
+  height: 50px;
+  margin-top: 25px;
+  /*margin-left: 17px;*/
+  border: 0;
+  /*background-color:#1D4F7D;*/
+  background-color: #94070A;
+  font-size: 18px;
+  color: white;
+  font-family: "微软雅黑";
+  float: right;
+}
+
+.ipfsright .check {
+  width: 350px;
+  height: 50px;
+  margin-top: 25px;
+  font-size: 18px;
+
+}
+
